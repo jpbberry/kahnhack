@@ -1,0 +1,49 @@
+// ==UserScript==
+// @name         Fake Kahn Academy Hack
+// @namespace    http://tampermonkey.net/
+// @version      0.3
+// @description  try to take over the world!
+// @author       MCninja
+// @match        https://www.khanacademy.org/
+// @grant        none
+// ==/UserScript==
+
+(function() {
+    'use strict';
+document.querySelector("span.odometer-digit-spacer").innerHTML = "9";
+document.querySelector("span.odometer-digit").removeAttribute("class");
+document.querySelector("span.odometer-digit").removeAttribute("class");
+document.querySelector("span.odometer-digit").removeAttribute("class");
+document.querySelector("span.odometer-digit").removeAttribute("class");
+document.querySelector("span.odometer-digit").removeAttribute("class");
+document.querySelector("span.odometer-digit").removeAttribute("class");
+document.querySelector("span.odometer-digit").removeAttribute("class");
+document.querySelector("span.odometer-digit-spacer").innerHTML = "9";
+document.querySelector("span.odometer-digit-spacer").id = "dist1";
+document.getElementById("dist1").removeAttribute("class");
+document.getElementById("dist1").removeAttribute("id");
+document.querySelector("span.odometer-digit-spacer").innerHTML = "9";
+document.querySelector("span.odometer-digit-spacer").id = "dist1";
+document.getElementById("dist1").removeAttribute("class");
+document.getElementById("dist1").removeAttribute("id");
+document.querySelector("span.odometer-digit-spacer").innerHTML = "9";
+document.querySelector("span.odometer-digit-spacer").id = "dist1";
+document.getElementById("dist1").removeAttribute("class");
+document.getElementById("dist1").removeAttribute("id");
+document.querySelector("span.odometer-digit-spacer").innerHTML = "9";
+document.querySelector("span.odometer-digit-spacer").id = "dist1";
+document.getElementById("dist1").removeAttribute("class");
+document.getElementById("dist1").removeAttribute("id");
+document.querySelector("span.odometer-digit-spacer").innerHTML = "9";
+document.querySelector("span.odometer-digit-spacer").id = "dist1";
+document.getElementById("dist1").removeAttribute("class");
+document.getElementById("dist1").removeAttribute("id");
+document.querySelector("span.odometer-digit-spacer").innerHTML = "9";
+document.querySelector("span.odometer-digit-spacer").id = "dist1";
+document.getElementById("dist1").removeAttribute("class");
+document.getElementById("dist1").removeAttribute("id");
+document.querySelector("span.odometer-digit-spacer").innerHTML = "9";
+document.querySelector("span.odometer-digit-spacer").id = "dist1";
+document.getElementById("dist1").removeAttribute("class");
+document.getElementById("dist1").removeAttribute("id");
+})();
