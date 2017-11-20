@@ -10,6 +10,7 @@
 
 (function() {
     'use strict';
+    
 document.querySelector("span.odometer-digit-spacer").innerHTML = "9";
 document.querySelector("span.odometer-digit").removeAttribute("class");
 document.querySelector("span.odometer-digit").removeAttribute("class");
